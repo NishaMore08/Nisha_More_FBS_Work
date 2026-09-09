@@ -1,0 +1,5 @@
+f=int(input("Enter distance in feet:"))
+i=int(input("Enter distance in inches:"))
+m=(f*0.3048)+(i*0.0254)
+c=(f*30.48)+(i*2.54)
+print(f'The distance in meter and centimeter is {m} and {c} respectively.')
