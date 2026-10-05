@@ -1,0 +1,7 @@
+l=int(input('Enter length:'))
+b=int(input('Enter breadth:'))
+r=int(input('Enter radius:'))
+Area=(l*b)+(((3.14*r*r))/2)
+Perimeter=(2*(l+b))+(3.14*r)
+print("Area:",Area)
+print("Perimeter:",Perimeter)
