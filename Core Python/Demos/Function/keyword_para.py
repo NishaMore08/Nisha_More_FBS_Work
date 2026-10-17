@@ -1,0 +1,5 @@
+def emp(id,name,sal,dept):
+    return f'ID:{id}\nName:{name}\nSalary:{sal}\nDEPT:{dept}'
+
+res=emp(name='ABC',sal=35000,dept='IT',id=101)
+print(res)
