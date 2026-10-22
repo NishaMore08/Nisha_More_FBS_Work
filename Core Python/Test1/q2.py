@@ -1,5 +1,0 @@
-P=int(input('Enter principal amount:'))
-R=int(input('Enter Rate of inerest:'))
-T=int(input('Enter time:'))
-S_I=(P*R*T/100)
-print('Simple interest:',S_I)
