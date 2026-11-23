@@ -61,10 +61,10 @@ class HeavyVehicle(Vehicle):
             Vehicle.extra_charges=100*self.No_of_Person
         print(f'Toll Calculation:{self.basic_toll+Vehicle.extra_charges}')
 
-two=TwoWheeler(1003,20,3)
-three=ThreeWheeler(2048,30,4)
-four=FourWheeler(3920,40,5)
-heavy=HeavyVehicle(2846,60,7)
+two=TwoWheeler(1003,20,2)
+three=ThreeWheeler(2048,30,3)
+four=FourWheeler(3920,40,4)
+heavy=HeavyVehicle(2846,60,6)
 
 print(two)
 print(three)

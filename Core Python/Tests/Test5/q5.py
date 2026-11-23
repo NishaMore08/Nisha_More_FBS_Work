@@ -3,9 +3,10 @@ li2=[6,7,3,9,2,0]
 li3=[]
 for i in li1:
     if i not in li3:
-            li3.append(i)
+        li3.append(i)
 
-for i in li2:
-    if i not in li3:
-            li3.append(i)
+for j in li2:
+    if j not in li3:
+        li3.append(j)
+        
 print('Union of two list:',li3)
